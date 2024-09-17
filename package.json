@@ -1,7 +1,7 @@
 {
   "name": "vue-loader-energeek",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vue Loader Component",
   "main": "./dist/vue-loader-energeek.umd.cjs",
   "module": "./dist/vue-loader-energeek.js",
