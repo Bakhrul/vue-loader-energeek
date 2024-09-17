@@ -15,7 +15,8 @@
     ".": {
       "import": "./dist/vue-loader-energeek.js",
       "require": "./dist/vue-loader-energeek.umd.cjs"
-    }
+    },
+    "./style.css": "./dist/style.css"
   },
   "files": [
     "dist",
