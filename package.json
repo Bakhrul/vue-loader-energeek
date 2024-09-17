@@ -1,9 +1,9 @@
 {
   "name": "vue-loader-energeek",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue Loader Component",
-  "main": "./dist/vue-loader-energeek.umd.js",
+  "main": "./dist/vue-loader-energeek.umd.cjs",
   "module": "./dist/vue-loader-energeek.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -13,8 +13,8 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/vue-loader-energeek.esm.js",
-      "require": "./dist/vue-loader-energeek.js"
+      "import": "./dist/vue-loader-energeek.js",
+      "require": "./dist/vue-loader-energeek.umd.cjs"
     }
   },
   "files": [
